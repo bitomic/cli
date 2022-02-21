@@ -1,6 +1,7 @@
 {
   "name": "yarn-template",
   "version": "1.0.0",
+  "type": "module",
   "main": "dist/main.js",
   "author": "bitomic",
   "license": "MIT",
