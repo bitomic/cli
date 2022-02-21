@@ -2,7 +2,7 @@
 	"exclude": [ "dist", "node_modules" ],
 	"include": [ "src" ],
 	"compilerOptions": {
-		"module": "ES6",
+		"module": "ES2020",
 		"target": "ES6",
 		"moduleResolution": "Node",
 		"skipLibCheck": true,
