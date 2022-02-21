@@ -10,7 +10,7 @@ export abstract class Listener extends Piece {
 		this.emitter = options.emitter ?? container.client
 		this.event = options.event
 
-		this.emitter.on( this.event, () => this.run() ) // eslint-disable-line @typescript-eslint/no-misused-promises
+		this.emitter[ options.once ? 'once' : 'on' ]( this.event, () => this.run() ) // eslint-disable-line @typescript-eslint/no-misused-promises
 	}
 
     public abstract run(): void | Promise<void>
@@ -19,4 +19,5 @@ export abstract class Listener extends Piece {
 export interface ListenerOptions extends PieceOptions {
     emitter?: EventEmitter
     event: string
+    once?: boolean
 }
