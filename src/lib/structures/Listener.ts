@@ -1,9 +1,12 @@
 import { container, Piece, type PieceContext, type PieceOptions } from '@sapphire/pieces'
 import { type EventEmitter } from 'events'
+import { Events } from '../types/index.js'
 
 export abstract class Listener extends Piece {
+	public static readonly Events = Events
+
 	public readonly emitter: EventEmitter
-	public readonly event: string
+	public readonly event: Events
 
 	public constructor( context: PieceContext, options: ListenerOptions ) {
 		super( context, options )
@@ -18,6 +21,6 @@ export abstract class Listener extends Piece {
 
 export interface ListenerOptions extends PieceOptions {
     emitter?: EventEmitter
-    event: string
+    event: Events
     once?: boolean
 }
