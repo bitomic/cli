@@ -1744,6 +1744,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lexure@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "lexure@npm:0.17.0"
+  checksum: 95797b0ada9452bcdfdd30997572ab1673de1b2583a5af2fa309aa3587ec3b95ba361880b333ed446a6b0f07764b6d8d2cf1d72083c61fa9f96c06181f194453
+  languageName: node
+  linkType: hard
+
 "lilconfig@npm:2.0.4":
   version: 2.0.4
   resolution: "lilconfig@npm:2.0.4"
@@ -2926,6 +2933,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.12.1
     eslint: ^8.9.0
     husky: ^7.0.4
+    lexure: ^0.17.0
     lint-staged: ^12.3.4
     rimraf: ^3.0.2
     typescript: ^4.5.5
