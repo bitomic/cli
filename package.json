@@ -1,5 +1,5 @@
 {
-  "name": "yarn-template",
+  "name": "@bitomic/cli",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/main.js",
