@@ -32,6 +32,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bitomic/cli@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@bitomic/cli@workspace:."
+  dependencies:
+    "@commitlint/cli": ^16.2.1
+    "@commitlint/config-conventional": ^16.2.1
+    "@sapphire/pieces": ^3.2.0
+    "@types/node": ^16.11.26
+    "@typescript-eslint/eslint-plugin": ^5.12.1
+    "@typescript-eslint/parser": ^5.12.1
+    eslint: ^8.9.0
+    husky: ^7.0.4
+    lexure: ^0.17.0
+    lint-staged: ^12.3.4
+    rimraf: ^3.0.2
+    typescript: ^4.5.5
+  languageName: unknown
+  linkType: soft
+
 "@commitlint/cli@npm:^16.2.1":
   version: 16.2.1
   resolution: "@commitlint/cli@npm:16.2.1"
@@ -372,10 +391,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.11.25":
-  version: 16.11.25
-  resolution: "@types/node@npm:16.11.25"
-  checksum: 0b6e25a81364be89256ad1a36341e27b387e646d3186e270108a8bb7b6ecdfdf5ae037aa1c75a5117b8a7509c80093b75431cd5cfcfbc4d553b52e7db2ca272e
+"@types/node@npm:^16.11.26":
+  version: 16.11.26
+  resolution: "@types/node@npm:16.11.26"
+  checksum: 57757caaba3f0d95de82198cb276a1002c49b710108c932a1d02d7c91ff2fa57cfe2dd19fde60853b6dd90b0964b3cf35557981d2628e20aed6a909057aedfe6
   languageName: node
   linkType: hard
 
@@ -2920,25 +2939,6 @@ __metadata:
   checksum: 2b687338684bf9645e9389ffdbe813fc5a2ddfede299d46fbe5ac80eb9a391e558b97861ba44d2256936ebe9d7f8135f6a38af1c76a5685eac4061008b2df57a
   languageName: node
   linkType: hard
-
-"yarn-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "yarn-template@workspace:."
-  dependencies:
-    "@commitlint/cli": ^16.2.1
-    "@commitlint/config-conventional": ^16.2.1
-    "@sapphire/pieces": ^3.2.0
-    "@types/node": ^16.11.25
-    "@typescript-eslint/eslint-plugin": ^5.12.1
-    "@typescript-eslint/parser": ^5.12.1
-    eslint: ^8.9.0
-    husky: ^7.0.4
-    lexure: ^0.17.0
-    lint-staged: ^12.3.4
-    rimraf: ^3.0.2
-    typescript: ^4.5.5
-  languageName: unknown
-  linkType: soft
 
 "yn@npm:3.1.1":
   version: 3.1.1
