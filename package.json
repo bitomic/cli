@@ -18,7 +18,7 @@
   },
   "packageManager": "yarn@3.2.0",
   "dependencies": {
-    "@sapphire/pieces": "^3.2.0",
+    "@sapphire/pieces": "^3.3.0",
     "lexure": "^0.17.0"
   },
   "devDependencies": {
