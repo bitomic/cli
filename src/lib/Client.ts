@@ -13,7 +13,7 @@ export class Client extends EventEmitter {
 		this.container = container
 		this.container.client = this
 
-		const basepath = path.resolve( fileURLToPath(import.meta.url), '../..' )
+		const basepath = path.resolve( fileURLToPath( import.meta.url ), '../..' )
 		container.stores.register( new CommandStore().registerPath( path.resolve( basepath, 'commands' ) ) )
 		container.stores.register( new ListenerStore().registerPath( path.resolve( basepath, 'listeners' ) ) )
 	}
